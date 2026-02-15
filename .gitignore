@@ -1,0 +1,20 @@
+# build
+**/target/
+
+# IDE
+.idea/
+*.iml
+
+# compiled
+*.class
+
+# test
+*Test.java
+**/test/
+
+# secrets / local configs
+**/application-dev.yml
+**/application-*.yml
+.env
+.env.*
+git
